@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="uk">
+	<head>
+		<meta charset="utf-8" />
+		<title>Шинок — традиційний український ресторан, Тернопіль</title>
+		<base href="/" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script>
+			try {
+				const storedMode = localStorage.getItem('app-mode');
+				const preferredMode =
+					storedMode === 'dark' || storedMode === 'light'
+						? storedMode
+						: window.matchMedia('(prefers-color-scheme: dark)').matches
+							? 'dark'
+							: 'light';
+				document.documentElement.setAttribute('data-mode', preferredMode);
+			} catch {}
+		</script>
+
+		<meta name="description" content="Шинок — традиційний український ресторан у Тернополі біля замку та ставу. Автентична українська кухня, банкети, весілля, живa музика, літня тераса, доставка та самовивіз. Вул. Замкова, 10А." />
+		<meta name="keywords" content="Шинок, ресторан Тернопіль, українська кухня, банкет Тернопіль, весілля ресторан, тераса біля ставу, живa музика Тернопіль, доставка їжі Тернопіль, замкова вулиця, Shynok Ternopil" />
+		<meta name="author" content="Шинок" />
+		<meta name="robots" content="index, follow" />
+		<meta name="theme-color" content="#F4E9D8" media="(prefers-color-scheme: light)" />
+		<meta name="theme-color" content="#1A0F0A" media="(prefers-color-scheme: dark)" />
+
+		<meta itemprop="name" content="Шинок" />
+		<meta itemprop="description" content="Традиційний український ресторан у Тернополі. Автентична кухня, банкети, весілля, жива музика, літня тераса." />
+		<meta itemprop="image" content="https://shynok.ternopil.space/logo.svg" />
+
+		<meta property="og:type" content="restaurant" />
+		<meta property="og:site_name" content="Шинок" />
+		<meta property="og:locale" content="uk_UA" />
+		<meta property="og:url" content="https://shynok.ternopil.space/" />
+		<meta property="og:title" content="Шинок — традиційний український ресторан, Тернопіль" />
+		<meta property="og:description" content="Традиційний український ресторан у Тернополі біля замку та ставу. Автентична кухня, банкети, весілля, жива музика, літня тераса, доставка." />
+		<meta property="og:image" content="https://shynok.ternopil.space/logo.svg" />
+
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Шинок — традиційний український ресторан, Тернопіль" />
+		<meta name="twitter:description" content="Традиційний ресторан у Тернополі. Українська кухня, банкети, жива музика, літня тераса." />
+		<meta name="twitter:image" content="https://shynok.ternopil.space/logo.svg" />
+		<meta name="twitter:image:src" content="https://shynok.ternopil.space/logo.svg" />
+
+		<link rel="canonical" href="https://shynok.ternopil.space/" />
+		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+			rel="stylesheet"
+		/>
+
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Restaurant",
+			"name": "Шинок",
+			"alternateName": "Shynok",
+			"description": "Традиційний український ресторан у Тернополі біля замку та ставу. Автентична кухня, банкети, весілля, жива музика, літня тераса, доставка та самовивіз.",
+			"url": "https://shynok.ternopil.space",
+			"image": "https://shynok.ternopil.space/logo.svg",
+			"telephone": "+380352000000",
+			"email": "info@shynok.ternopil.space",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "вул. Замкова, 10А",
+				"addressLocality": "Тернопіль",
+				"addressRegion": "Тернопільська область",
+				"addressCountry": "UA"
+			},
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "49.5535",
+				"longitude": "25.5948"
+			},
+			"servesCuisine": "Ukrainian Cuisine",
+			"priceRange": "$$",
+			"currenciesAccepted": "UAH",
+			"paymentAccepted": "Cash, Credit Card",
+			"hasMap": "https://maps.google.com/?q=Замкова+10А,+Тернопіль",
+			"amenityFeature": [
+				{"@type": "LocationFeatureSpecification", "name": "Літня тераса", "value": true},
+				{"@type": "LocationFeatureSpecification", "name": "Банкетний зал", "value": true},
+				{"@type": "LocationFeatureSpecification", "name": "Жива музика", "value": true},
+				{"@type": "LocationFeatureSpecification", "name": "Доставка", "value": true},
+				{"@type": "LocationFeatureSpecification", "name": "Самовивіз", "value": true}
+			],
+			"sameAs": []
+		}
+		</script>
+	</head>
+	<body>
+		<app-root></app-root>
+	</body>
+</html>
