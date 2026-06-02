@@ -1,8 +1,8 @@
-import { NgOptimizedImage } from '@angular/common';
 import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
 import { FormField, FormRoot, form, required } from '@angular/forms/signals';
 import { TranslateDirective } from '@wawjs/ngx-translate';
 import { ContactService } from '../../feature/contact/contact.service';
+import { CompanyService } from '../../feature/company/company.service';
 
 interface SocialContactRequest {
 	phone: string;
@@ -15,13 +15,14 @@ const initialSocialContactRequest = (phone = ''): SocialContactRequest => ({
 });
 
 @Component({
-	imports: [FormField, FormRoot, NgOptimizedImage, TranslateDirective],
+	imports: [FormField, FormRoot, TranslateDirective],
 	templateUrl: './socials.component.html',
 	styleUrl: './socials.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class SocialsComponent {
 	private readonly _contactService = inject(ContactService);
+	private readonly _companyService = inject(CompanyService);
 
 	protected readonly submittedRequest = signal<SocialContactRequest | null>(null);
 	protected readonly submitMessage = signal('');
@@ -68,7 +69,13 @@ export class SocialsComponent {
 	}
 
 	private _buildMessage(request: SocialContactRequest): string {
-		return ['New contact message', `Phone: ${request.phone}`, request.message].filter(Boolean).join('\n');
+		const company = this._companyService.company();
+		const companyName = company?.name ?? 'Шинок';
+		return [
+			`📍 Заклад: ${companyName}`,
+			`📞 Телефон: ${request.phone}`,
+			request.message ? `💬 Повідомлення: ${request.message}` : '',
+		].filter(Boolean).join('\n');
 	}
 
 	private _normalizeRequest(request: SocialContactRequest): SocialContactRequest {

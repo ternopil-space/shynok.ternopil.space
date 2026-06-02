@@ -13,7 +13,6 @@ export class NavigationComponent {
 		{ label: 'About us', icon: 'info', route: '/about' },
 		{ label: 'Gallery', icon: 'photo_library', route: '/gallery' },
 
-		{ label: 'Spaces', icon: 'chair', route: '/rooms' },
 		{ label: 'Discounts', icon: 'local_offer', route: '/discounts' },
 
 		{ label: "Today's menu", icon: 'today', route: '/daily' },
@@ -29,8 +28,6 @@ export class NavigationComponent {
 		{ label: 'Reviews', icon: 'rate_review', route: '/reviews' },
 
 		{ label: 'Experiences', icon: 'explore', route: '/quests' },
-		{ label: 'Hospitality', icon: 'spa', route: '/spa' },
-
 		{ label: 'Loyalty', icon: 'workspace_premium', route: '/loyalty' },
 		{ label: 'Catering', icon: 'room_service', route: '/catering' },
 

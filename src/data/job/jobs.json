@@ -46,52 +46,6 @@
 		]
 	},
 	{
-		"slug": "front-desk-receptionist",
-		"title": "Front desk receptionist",
-		"department": "Hotel",
-		"summary": "A guest-facing hotel role focused on check-in, check-out, reservations, calls, and first-contact hospitality.",
-		"location": "Kamianets-Podilskyi",
-		"employmentType": "Full-time",
-		"schedule": "Shift schedule",
-		"salary": "Competitive monthly pay",
-		"experience": "Hospitality experience preferred",
-		"level": "Middle",
-		"workFormat": "On-site",
-		"applyUrl": "/socials",
-		"applyLabel": "Contact hiring team",
-		"contactEmail": "hello@horeca.itkamianets.com",
-		"contactPhone": "+38 097 000 00 00",
-		"responsibilities": [
-			"Welcome guests and manage check-in and check-out",
-			"Process room reservations and guest requests",
-			"Answer phone calls, messages, and basic inquiries",
-			"Coordinate with housekeeping and restaurant teams",
-			"Keep reception information accurate and organized"
-		],
-		"requirements": [
-			"Polite communication and attention to detail",
-			"Basic computer skills",
-			"Ability to handle guest questions calmly",
-			"English or other foreign languages are a plus"
-		],
-		"benefits": [
-			"Stable schedule with shift planning",
-			"Hospitality experience and guest communication practice",
-			"Growth into hotel administration or guest relations",
-			"Team support during onboarding"
-		],
-		"body": [
-			"The receptionist is often the first person a hotel guest meets. This role shapes the first impression through clear communication, friendly attitude, and organized service.",
-			"The position includes reservations, check-in, check-out, calls, messages, and coordination with other departments.",
-			"It is a good role for someone who enjoys communication and can keep information accurate during active working hours."
-		],
-		"highlights": [
-			"Manage check-in and check-out",
-			"Communicate with guests before and during stays",
-			"Coordinate reception with hotel departments"
-		]
-	},
-	{
 		"slug": "waiter",
 		"title": "Waiter",
 		"department": "Restaurant",
@@ -322,52 +276,6 @@
 		]
 	},
 	{
-		"slug": "housekeeper",
-		"title": "Housekeeper",
-		"department": "Hotel",
-		"summary": "A hotel cleanliness role focused on room preparation, guest comfort, laundry coordination, and public area care.",
-		"location": "Kamianets-Podilskyi",
-		"employmentType": "Full-time / Part-time",
-		"schedule": "Morning and day shifts",
-		"salary": "Hourly or monthly pay",
-		"experience": "Experience preferred, training possible",
-		"level": "Junior / Middle",
-		"workFormat": "On-site",
-		"applyUrl": "/socials",
-		"applyLabel": "Contact hiring team",
-		"contactEmail": "hello@horeca.itkamianets.com",
-		"contactPhone": "+38 097 000 00 00",
-		"responsibilities": [
-			"Clean and prepare hotel rooms for guest arrival",
-			"Change bed linen, towels, and room supplies",
-			"Report maintenance issues or missing items",
-			"Keep public hotel areas clean and tidy",
-			"Coordinate with reception about room readiness"
-		],
-		"requirements": [
-			"Attention to cleanliness and details",
-			"Responsible attitude toward guest property",
-			"Ability to follow room preparation standards",
-			"Readiness for active physical work"
-		],
-		"benefits": [
-			"Stable daytime work",
-			"Training on hotel standards",
-			"Team support and clear checklists",
-			"Growth into senior housekeeper or housekeeping supervisor"
-		],
-		"body": [
-			"The housekeeper plays a key role in hotel comfort. Clean rooms, fresh linen, and prepared guest spaces are essential for a good stay.",
-			"This role requires accuracy, responsibility, and attention to details that guests immediately notice.",
-			"Housekeeping works closely with reception to keep room availability clear and guest arrivals smooth."
-		],
-		"highlights": [
-			"Prepare rooms for guest arrival",
-			"Keep hotel spaces clean and comfortable",
-			"Coordinate room readiness with reception"
-		]
-	},
-	{
 		"slug": "dishwasher",
 		"title": "Dishwasher",
 		"department": "Kitchen",
@@ -457,52 +365,6 @@
 			"Coordinate banquets and private events",
 			"Manage guest communication and details",
 			"Support smooth event preparation"
-		]
-	},
-	{
-		"slug": "spa-attendant",
-		"title": "Spa attendant",
-		"department": "Spa",
-		"summary": "A wellness area role focused on guest welcome, spa cleanliness, towels, time slots, and calm service flow.",
-		"location": "Kamianets-Podilskyi",
-		"employmentType": "Full-time / Part-time",
-		"schedule": "Shift schedule",
-		"salary": "Hourly or monthly pay",
-		"experience": "Experience preferred, training possible",
-		"level": "Junior / Middle",
-		"workFormat": "On-site",
-		"applyUrl": "/socials",
-		"applyLabel": "Contact hiring team",
-		"contactEmail": "hello@horeca.itkamianets.com",
-		"contactPhone": "+38 097 000 00 00",
-		"responsibilities": [
-			"Welcome spa guests and explain basic rules",
-			"Prepare towels, rest areas, and guest supplies",
-			"Monitor cleanliness and comfort in spa zones",
-			"Coordinate time slots and guest flow",
-			"Report technical or maintenance issues"
-		],
-		"requirements": [
-			"Polite and calm communication",
-			"Attention to cleanliness and safety",
-			"Responsible attitude toward guest comfort",
-			"Readiness to follow spa rules and procedures"
-		],
-		"benefits": [
-			"Calm wellness environment",
-			"Training on spa service standards",
-			"Flexible shifts may be available",
-			"Growth into spa administrator or supervisor"
-		],
-		"body": [
-			"The spa attendant keeps the wellness area clean, calm, and ready for guests.",
-			"This role includes guest welcome, towels, rest spaces, timing, and basic rule explanation.",
-			"It is a good fit for someone who enjoys quiet service, cleanliness, and organized guest support."
-		],
-		"highlights": [
-			"Support sauna, hammam, or relax zone guests",
-			"Keep spa areas clean and ready",
-			"Coordinate simple guest flow and time slots"
 		]
 	},
 	{

@@ -154,38 +154,6 @@
 		]
 	},
 	{
-		"slug": "iryna-moroz",
-		"name": "Iryna Moroz",
-		"role": "Front desk receptionist",
-		"department": "Hotel reception",
-		"seniority": "5 years in hotel service",
-		"description": "Iryna welcomes hotel guests, supports check-in and check-out, and helps visitors understand room, breakfast, and service details.",
-		"image": "",
-		"publicRole": true,
-		"availableForGuestQuestions": true,
-		"specialties": [
-			"Check-in",
-			"Room information",
-			"Guest support"
-		],
-		"languages": [
-			"Ukrainian",
-			"English",
-			"Polish"
-		],
-		"tips": "Ask Iryna about check-in time, breakfast, parking, family rooms, or available guest services.",
-		"body": [
-			"Iryna is the first point of contact for many hotel guests, so her role is naturally public-facing.",
-			"She helps guests understand practical details before and during their stay, including room readiness, breakfast options, parking, and extra services.",
-			"A receptionist profile is useful for hotel templates because it gives guests confidence that there is a real person supporting their stay."
-		],
-		"highlights": [
-			"Welcomes guests at reception",
-			"Helps with room and booking questions",
-			"Coordinates guest requests with hotel teams"
-		]
-	},
-	{
 		"slug": "daria-lysenko",
 		"name": "Daria Lysenko",
 		"role": "Event coordinator",
@@ -214,66 +182,6 @@
 			"Plans banquets and private celebrations",
 			"Coordinates menu, seating, and timing",
 			"Supports guests from inquiry to event day"
-		]
-	},
-	{
-		"slug": "nazar-boyko",
-		"name": "Nazar Boyko",
-		"role": "Spa host",
-		"department": "Spa and wellness",
-		"seniority": "3 years in wellness service",
-		"description": "Nazar welcomes guests in the spa area, explains basic rules, coordinates time slots, and keeps the relax zone calm and comfortable.",
-		"image": "",
-		"publicRole": true,
-		"availableForGuestQuestions": true,
-		"specialties": [
-			"Spa guest support",
-			"Sauna rules",
-			"Relax zone timing"
-		],
-		"languages": [
-			"Ukrainian"
-		],
-		"tips": "Ask Nazar about available spa time, sauna rules, towels, rest areas, and guest capacity.",
-		"body": [
-			"Nazar is a public wellness team member because spa guests often need simple guidance before using sauna, hammam, pool, or rest areas.",
-			"He supports a calm guest flow, helps with towels and basic comfort, and keeps guests informed about timing and rules.",
-			"A spa host profile helps the business make wellness services feel more approachable and organized."
-		],
-		"highlights": [
-			"Welcomes guests in the spa zone",
-			"Explains sauna and relax area rules",
-			"Coordinates spa time slots and comfort"
-		]
-	},
-	{
-		"slug": "kateryna-rudenko",
-		"name": "Kateryna Rudenko",
-		"role": "Housekeeping lead",
-		"department": "Hotel housekeeping",
-		"seniority": "9 years in hotel housekeeping",
-		"description": "Kateryna leads room preparation standards and helps keep hotel spaces clean, calm, and ready for guest arrival.",
-		"image": "",
-		"publicRole": true,
-		"availableForGuestQuestions": false,
-		"specialties": [
-			"Room readiness",
-			"Cleanliness standards",
-			"Guest comfort"
-		],
-		"languages": [
-			"Ukrainian"
-		],
-		"tips": "Her work is mostly behind the scenes, but guests feel it through clean rooms, fresh linen, and prepared spaces.",
-		"body": [
-			"Kateryna is not usually part of long guest conversations, but her role is public enough to show because room comfort starts with housekeeping.",
-			"She helps maintain preparation standards for rooms, shared corridors, linen, and guest-ready spaces.",
-			"A housekeeping lead profile shows respect for the team members who make hotel stays feel clean, calm, and reliable."
-		],
-		"highlights": [
-			"Leads hotel room preparation standards",
-			"Supports clean and comfortable guest spaces",
-			"Coordinates room readiness with reception"
 		]
 	}
 ]

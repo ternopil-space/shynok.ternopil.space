@@ -50,21 +50,6 @@
 		"description": "Alcohol service follows local laws and age restrictions. Our team may refuse alcohol service when required for safety or legal reasons."
 	},
 	{
-		"category": "Hotel",
-		"title": "Check-in and check-out times apply",
-		"description": "Standard check-in and check-out times apply to all stays unless early check-in or late check-out is confirmed in advance."
-	},
-	{
-		"category": "Hotel",
-		"title": "Guests are responsible for room condition",
-		"description": "Guests are responsible for the condition of rooms, furniture, towels, keys, and equipment during their stay. Damage or missing items may be charged."
-	},
-	{
-		"category": "Hotel",
-		"title": "Quiet hours protect guest comfort",
-		"description": "Please keep noise low during quiet hours, especially in rooms, corridors, terraces, and parking areas."
-	},
-	{
 		"category": "Events",
 		"title": "Event details should be confirmed in advance",
 		"description": "For birthdays, banquets, meetings, and private events, please confirm guest count, menu, timing, decorations, and special requests in advance."

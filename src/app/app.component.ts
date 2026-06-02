@@ -54,8 +54,7 @@ export class App {
 			if (
 				path.startsWith('/dish/') ||
 				path.startsWith('/discount/') ||
-				path.startsWith('/review/') ||
-				path.startsWith('/room/')
+				path.startsWith('/review/')
 			) {
 				return;
 			}
@@ -78,11 +77,9 @@ const _pageTitleKeys: Record<string, string> = {
 	'/': 'Horeca',
 	'/menu': 'Menu',
 	'/about': 'About us',
-	'/spa': 'Spa',
 	'/favorites': 'Favorites',
 	'/seasonal': 'Seasonal specials',
 	'/daily': "Today's menu",
-	'/rooms': 'Rooms',
 	'/navigation': 'Navigation',
 	'/gallery': 'Gallery',
 	'/discounts': 'Discounts',
